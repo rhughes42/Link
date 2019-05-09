@@ -32,6 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EPPlus">
+      <HintPath>..\..\..\..\..\AppData\Roaming\Grasshopper\Libraries\Axis\EPPlus.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
@@ -56,9 +59,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LinkComponent.cs" />
-    <Compile Include="LinkInfo.cs" />
+    <Compile Include="Rhino\BakeLayer.cs" />
+    <Compile Include="Rhino\CreateLayer.cs" />
+    <Compile Include="Excel\ExcelCreate.cs" />
+    <Compile Include="Excel\ExcelRead.cs" />
+    <Compile Include="Excel\ExcelWrite.cs" />
+    <Compile Include="Rhino\LayerObjects.cs" />
+    <Compile Include="Properties\LinkInfo.cs" />
+    <Compile Include="Workflow\OpenFolder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Workflow\SelectFolder.cs" />
+    <Compile Include="WindowsFormsComponent.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
