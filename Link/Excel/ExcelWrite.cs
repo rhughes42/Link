@@ -12,7 +12,7 @@ using Rhino.Geometry;
 using OfficeOpenXml;
 using System.Windows.Forms;
 
-namespace Axis.Workflow
+namespace Link.Workflow
 {
     public class ExcelWrite : GH_Component
     {
@@ -20,12 +20,12 @@ namespace Axis.Workflow
         {
             get
             {
-                return Axis.Properties.Resources.ExcelWrite;
+                return null;
             }
         }
         public override Guid ComponentGuid
         {
-            get { return new Guid("88cc0019-a849-400b-87d9-54cc830d5b9c"); }
+            get { return new Guid("AB4D9B3C-BEEE-426A-B71A-0C1CCCDA01C1"); }
         }
         public override GH_Exposure Exposure => GH_Exposure.secondary;
 

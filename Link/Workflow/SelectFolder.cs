@@ -3,7 +3,7 @@ using System.Windows.Forms;
 
 using Grasshopper.Kernel;
 
-namespace Axis.Workflow
+namespace Link.Workflow
 {
     public class SelectFolder : GH_Component
     {
@@ -11,12 +11,12 @@ namespace Axis.Workflow
         {
             get
             {
-                return Axis.Properties.Resources.SelectFolder;
+                return null;
             }
         }
         public override Guid ComponentGuid
         {
-            get { return new Guid("0b72dc36-531b-4ec9-a568-9ee9bd0b559f"); }
+            get { return new Guid("7FB887E8-6A6B-4064-954C-6407C1E46D03"); }
         }
         public override GH_Exposure Exposure => GH_Exposure.primary;
 

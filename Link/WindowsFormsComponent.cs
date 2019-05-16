@@ -4,10 +4,9 @@ using System.Windows;
 using System.Windows.Forms;
 using Grasshopper.Kernel;
 using Rhino.Geometry;
-using static Axis.Util;
 using MessageBox = System.Windows.Forms.MessageBox;
 
-namespace Axis.Workflow
+namespace Link.Workflow
 {
     public class WindowsFormsComponent : GH_Component
     {
@@ -84,7 +83,7 @@ namespace Axis.Workflow
         /// </summary>
         public override Guid ComponentGuid
         {
-            get { return new Guid("e3262926-cf87-46aa-81e1-edcbb3460242"); }
+            get { return new Guid("534C9CD8-E820-4F74-9C16-EC200A556210"); }
         }
     }
 }

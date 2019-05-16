@@ -6,7 +6,7 @@ using Grasshopper.Kernel;
 using Rhino.Geometry;
 using Rhino.DocObjects;
 
-namespace Axis.Workflow
+namespace Link.Workflow
 {
     public class LayerObjects : GH_Component
     {
@@ -14,12 +14,12 @@ namespace Axis.Workflow
         {
             get
             {
-                return Axis.Properties.Resources.Layers;
+                return null;
             }
         }
         public override Guid ComponentGuid
         {
-            get { return new Guid("56760692-99cf-4a12-bc8d-70146638f218"); }
+            get { return new Guid("AB0DFAE5-7457-4441-BC58-9D97F13C863F"); }
         }
 
         // Sticky context menu flags

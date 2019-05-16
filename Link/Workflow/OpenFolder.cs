@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using Grasshopper.Kernel;
 using Rhino.Geometry;
 
-namespace Axis.Workflow
+namespace Link.Workflow
 {
     public class OpenFolder : GH_Component
     {
@@ -12,12 +12,12 @@ namespace Axis.Workflow
         {
             get
             {
-                return Axis.Properties.Resources.OpenFolder;
+                return null;
             }
         }
         public override Guid ComponentGuid
         {
-            get { return new Guid("5189002a-165c-4c60-865a-edd558b26599"); }
+            get { return new Guid("2E26B9B7-C502-4D0E-B1B6-EA9748E0FEDC"); }
         }
 
         public OpenFolder() : base("Open Folder", "Open", "Open a folder using it's path.", "Axis", "8. Workflow")

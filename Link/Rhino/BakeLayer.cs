@@ -9,7 +9,7 @@ using Rhino;
 using Rhino.DocObjects;
 using Rhino.Geometry;
 
-namespace Axis.Workflow
+namespace Link.Workflow
 {
     public class BakeLayer : GH_Component, IGH_BakeAwareData
     {
@@ -24,7 +24,7 @@ namespace Axis.Workflow
         }
         public override Guid ComponentGuid
         {
-            get { return new Guid("86a489f8-3651-4e06-b369-16f338993d78"); }
+            get { return new Guid("675AA8CA-9930-4425-A34C-B545161DA4B1"); }
         }
 
         // Default behaviour of the component is to overwrite existing objects.

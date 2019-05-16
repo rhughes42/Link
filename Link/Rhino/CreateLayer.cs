@@ -9,7 +9,7 @@ using Rhino.DocObjects.Tables;
 using Rhino.DocObjects.Custom;
 using Rhino.Render;
 
-namespace Axis.Workflow
+namespace Link.Workflow
 {
     public class CreateLayers : GH_Component
     {
@@ -17,12 +17,12 @@ namespace Axis.Workflow
         {
             get
             {
-                return Axis.Properties.Resources.Layers;
+                return null;
             }
         }
         public override Guid ComponentGuid
         {
-            get { return new Guid("07f7b24f-a777-49ad-836e-f35879beb8d5"); }
+            get { return new Guid("058C0B2F-1094-4A11-AAE3-7AD0B684177D"); }
         }
 
         public CreateLayers() : base("Create Layers", "Layers", "Create a series of layers in the current Rhino document.", "Axis", "8. Workflow")

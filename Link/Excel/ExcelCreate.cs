@@ -11,7 +11,7 @@ using Grasshopper.Kernel.Data;
 using Rhino.Geometry;
 using OfficeOpenXml;
 
-namespace Axis.Workflow
+namespace Link.Workflow
 {
     public class ExcelCreate : GH_Component
     {
@@ -19,12 +19,12 @@ namespace Axis.Workflow
         {
             get
             {
-                return Axis.Properties.Resources.ExcelCreate;
+                return null;
             }
         }
         public override Guid ComponentGuid
         {
-            get { return new Guid("f379dbee-6c7d-4c80-9cda-ceaf8b5c886d"); }
+            get { return new Guid("100E18D1-3A87-424E-A8C9-AD05227A8C43"); }
 
         }
         public override GH_Exposure Exposure => GH_Exposure.secondary;
